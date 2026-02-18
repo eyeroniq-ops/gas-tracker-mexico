@@ -109,21 +109,25 @@ function App() {
           rawData = apiResponse.data.stations;
         }
       } catch (localError) {
-        console.warn("Local API failed, attempting fallback to /stations.json", localError);
+        console.warn("Local API failed, using bundled data.", localError);
         try {
-          // 2. Try Static JSON (Netlify/Prod)
-          const staticResponse = await axios.get('/stations.json');
-          if (Array.isArray(staticResponse.data)) {
-            rawData = staticResponse.data;
-          } else if (staticResponse.data?.stations) {
-            rawData = staticResponse.data.stations;
+          // 2. Load Bundled JSON (Netlify/Prod)
+          // This ensures data is part of the build, no 404s.
+          const staticData: any = await import('./data/stations.json');
+
+          if (staticData.default && Array.isArray(staticData.default)) {
+            rawData = staticData.default;
+          } else if (staticData.default?.stations) {
+            rawData = staticData.default.stations;
+          } else if (staticData.stations) {
+            rawData = staticData.stations; // Direct import case
           }
-        } catch (staticError) {
-          console.error("Critical: Failed to load data from both API and static JSON.", staticError);
+        } catch (bundleError) {
+          console.error("Critical: Failed to load bundled data.", bundleError);
         }
       }
 
-      if (rawData.length > 0) {
+      if (rawData && rawData.length > 0) {
         console.log(`[DEBUG] Successfully loaded ${rawData.length} stations.`);
         setStations(enrichStationData(rawData));
       } else {

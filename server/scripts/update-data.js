@@ -8,9 +8,9 @@ async function updateStations() {
         const data = await fetchAndFilterData();
         console.log(`Fetched ${data.stations.length} stations.`);
 
-        // From server/scripts/update-data.js -> server/cre-scraper -> ../../client/public/stations.json
+        // From server/scripts/update-data.js -> server/cre-scraper -> ../../client/src/data/stations.json
         // __dirname is server/scripts
-        const targetPath = path.join(__dirname, '../../client/public/stations.json');
+        const targetPath = path.join(__dirname, '../../client/src/data/stations.json');
 
         fs.writeFileSync(targetPath, JSON.stringify(data, null, 2));
         console.log(`Successfully updated ${targetPath}`);
