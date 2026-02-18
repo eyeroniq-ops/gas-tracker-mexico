@@ -23,7 +23,8 @@ function App() {
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
   const [search, setSearch] = useState('');
   const [radius, setRadius] = useState(10); // Default 10km radius
-  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  // Initialize to Puebla to preventing loading ALL 13k stations at start
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>({ lat: 19.0414, lng: -98.2063 });
   const [darkMode, setDarkMode] = useState(false); // Default to Light Mode as per mockup
   const [showInfoModal, setShowInfoModal] = useState<boolean>(false);
 
@@ -259,11 +260,14 @@ function App() {
     }
 
     // 5. Sort
-    return validStations.sort((a, b) => {
+    const sorted = validStations.sort((a, b) => {
       const priceA = a.prices[sortBy] || 9999;
       const priceB = b.prices[sortBy] || 9999;
       return sortOrder === 'asc' ? priceA - priceB : priceB - priceA;
     });
+
+    // Performance: Limit to 300 stations to prevent crashes in dense areas
+    return sorted.slice(0, 300);
   }, [stations, search, sortBy, userLocation, radius, sortOrder]);
 
   const displayStations = useMemo(() => {
