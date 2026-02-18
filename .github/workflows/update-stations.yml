@@ -1,0 +1,39 @@
+name: Update Gas Prices
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs at 8:00 AM UTC every day
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push changes
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (Server)
+        run: |
+          cd server
+          npm install
+
+      - name: Run Scraper
+        run: |
+          cd server
+          node scripts/update-data.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add client/public/stations.json
+          git commit -m "Update gas stations data [skip ci]" || echo "No changes to commit"
+          git push

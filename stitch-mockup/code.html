@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mapa de Gasolineras v2</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "success": "#22c55e",
+                        "warning": "#eab308",
+                        "danger": "#ef4444",
+                    },
+                    fontFamily: {
+                        "display": ["Be Vietnam Pro", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased overflow-hidden h-screen flex flex-col">
+<!-- Top Header Area (Floating) -->
+<header class="absolute top-0 left-0 right-0 z-20 p-4 pointer-events-none">
+<div class="max-w-md mx-auto space-y-3 pointer-events-auto">
+<!-- Search Bar -->
+<div class="relative flex items-center bg-white/90 dark:bg-slate-800/90 backdrop-blur-md rounded-xl shadow-lg border border-slate-200 dark:border-slate-700 h-12 px-4">
+<span class="material-symbols-outlined text-slate-400 mr-2">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full placeholder:text-slate-500 p-0" placeholder="Buscar gasolinera o ciudad..." type="text"/>
+<button class="ml-2 text-primary">
+<span class="material-symbols-outlined">tune</span>
+</button>
+</div>
+<!-- Chips / Filters -->
+<div class="flex gap-2 overflow-x-auto hide-scrollbar pb-1">
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary px-4 shadow-sm">
+<p class="text-white text-xs font-semibold leading-normal">Gasolina 95</p>
+<span class="material-symbols-outlined text-sm text-white">expand_more</span>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-slate-800 px-4 shadow-sm border border-slate-200 dark:border-slate-700">
+<p class="text-slate-700 dark:text-slate-300 text-xs font-medium">98</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-slate-800 px-4 shadow-sm border border-slate-200 dark:border-slate-700">
+<p class="text-slate-700 dark:text-slate-300 text-xs font-medium">Gasóleo A</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-slate-800 px-4 shadow-sm border border-slate-200 dark:border-slate-700">
+<p class="text-slate-700 dark:text-slate-300 text-xs font-medium">Gasóleo B</p>
+</button>
+</div>
+</div>
+</header>
+<!-- Map View (Top 60%) -->
+<main class="relative h-[60%] w-full overflow-hidden">
+<div class="w-full h-full bg-slate-900 bg-center bg-no-repeat bg-cover" data-alt="Mapa oscuro detallado de la ciudad con calles" data-location="Madrid, Spain" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAo7xHmTeCUXya324zYusk8FkMI5Igk1t26wPCbzmRCxoKXYZ-ZBdOUMCxi-cEgF2wMHy5PC6vdIZkLJdH_MqxpTLsar8xFJhPZlk9i7LYJEkGV1qz-n5TRqpJdli2_xkJFyfdgSsthoyzEWrKDogvbRWv4oqK0IbAhbxFIbuEg8k2N1-fImvQTcSHd6EN-culRjkEpRRzvuQF6CAq-YRqrxPLIuGOL3hvSgA5VeWrxjE0RYsqjjVWcBIW2YiHoSn0EdNXavfGv7_8');">
+<!-- Custom Pins Layer (Simulated) -->
+<!-- PIN Cheap (Green) -->
+<div class="absolute top-1/2 left-1/3 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<div class="bg-success text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-lg mb-1">1.549 €</div>
+<div class="w-3 h-3 bg-success rounded-full ring-4 ring-success/30"></div>
+</div>
+<!-- PIN Average (Yellow) -->
+<div class="absolute top-[45%] left-[60%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<div class="bg-warning text-slate-900 text-[10px] font-bold px-2 py-1 rounded-full shadow-lg mb-1">1.682 €</div>
+<div class="w-3 h-3 bg-warning rounded-full ring-4 ring-warning/30"></div>
+</div>
+<!-- PIN Expensive (Red) -->
+<div class="absolute top-[65%] left-[55%] -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<div class="bg-danger text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-lg mb-1">1.849 €</div>
+<div class="w-3 h-3 bg-danger rounded-full ring-4 ring-danger/30"></div>
+</div>
+<!-- User Location -->
+<div class="absolute top-[55%] left-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="relative flex items-center justify-center">
+<div class="absolute w-8 h-8 bg-primary/30 rounded-full animate-ping"></div>
+<div class="w-4 h-4 bg-primary rounded-full ring-2 ring-white"></div>
+</div>
+</div>
+</div>
+<!-- Floating Map Controls -->
+<div class="absolute bottom-6 right-4 flex flex-col gap-3">
+<button class="w-12 h-12 bg-white dark:bg-slate-800 rounded-xl shadow-lg flex items-center justify-center text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">my_location</span>
+</button>
+<button class="w-12 h-12 bg-white dark:bg-slate-800 rounded-xl shadow-lg flex items-center justify-center text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">layers</span>
+</button>
+</div>
+</main>
+<!-- Bottom List Container (40%) -->
+<div class="flex-1 bg-white dark:bg-slate-900 rounded-t-3xl shadow-[0_-8px_30px_rgba(0,0,0,0.12)] z-30 flex flex-col overflow-hidden">
+<!-- Handle for "BottomSheet" feel -->
+<div class="w-12 h-1.5 bg-slate-200 dark:bg-slate-700 rounded-full mx-auto my-3 shrink-0"></div>
+<!-- List Header -->
+<div class="px-6 pb-4 flex items-center justify-between">
+<h2 class="text-lg font-bold tracking-tight text-slate-900 dark:text-white">Las más baratas cerca</h2>
+<button class="text-sm font-medium text-primary">Ver todas</button>
+</div>
+<!-- Scrollable List -->
+<div class="flex-1 overflow-y-auto px-4 space-y-3 pb-24">
+<!-- Station Card 1 -->
+<div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 flex items-center justify-between border border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-white dark:bg-slate-700 rounded-xl flex items-center justify-center overflow-hidden border border-slate-200 dark:border-slate-600">
+<img alt="Logo Repsol" class="w-8 h-8 object-contain" data-alt="Logotipo de estación de servicio Repsol" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAg6FGmvHnrh96OriqOtkJxvI3j5vWx8IHd15BevTD89HjyudF-dkS_y64NFSu370HilWAJ-iIM99eGtk_p17f4TRldVBCLDAefzZ8TkSIl_kDpgtb1XSfSnc55sKTGsPIfUrYDhC_AGBHpMYO7Pf3AxP1-UMC966SMCefI-Dh2S-VLNHDvvBO9UmW-aHIJFQTrbKW0feWaFH29u-8pXqQVyYpYCD38MZvyrvrfVvbyz9enNPzJ-V8taBmJWw1AVHNdNQBlId7l_k"/>
+</div>
+<div>
+<h3 class="font-bold text-sm text-slate-900 dark:text-white">Repsol San Blas</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="text-xs text-slate-500 dark:text-slate-400">0.8 km</span>
+<span class="w-1 h-1 bg-slate-300 rounded-full"></span>
+<span class="text-xs text-success font-medium">Hace 2h</span>
+</div>
+</div>
+</div>
+<div class="text-right">
+<p class="text-lg font-bold text-success">1.549 €/L</p>
+<p class="text-[10px] uppercase tracking-wider text-slate-400 font-semibold">Gasolina 95</p>
+</div>
+</div>
+<!-- Station Card 2 -->
+<div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 flex items-center justify-between border border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-white dark:bg-slate-700 rounded-xl flex items-center justify-center overflow-hidden border border-slate-200 dark:border-slate-600">
+<img alt="Logo Cepsa" class="w-8 h-8 object-contain" data-alt="Logotipo de estación de servicio Cepsa" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXOsW-EjBTchgWuc88aO_HM-3KrEP8gUud1D67E2FM24vZNKKgjrvmlhTJddW83EI9GzkXcMmy98d_3tZ242G6PnizbUEtTAiiZagQH0jufOlvGE1zUNhcz9EVmV6Yz9clXrC8hkFLiT9u9yHon9h-ewimaEXybXL8KyVJAbGgfFeGq7baEckCj1UtWg1ItNbcXclxRcg39j3IL0U71lWosh-rsZd76gmwiP4pm2Z5_ioETysswdlwr86fu5_5dT05FPDC7v5CoJ8"/>
+</div>
+<div>
+<h3 class="font-bold text-sm text-slate-900 dark:text-white">Cepsa Las Rosas</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="text-xs text-slate-500 dark:text-slate-400">1.2 km</span>
+<span class="w-1 h-1 bg-slate-300 rounded-full"></span>
+<span class="text-xs text-warning font-medium">Hace 5h</span>
+</div>
+</div>
+</div>
+<div class="text-right">
+<p class="text-lg font-bold text-warning">1.682 €/L</p>
+<p class="text-[10px] uppercase tracking-wider text-slate-400 font-semibold">Gasolina 95</p>
+</div>
+</div>
+<!-- Station Card 3 -->
+<div class="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 flex items-center justify-between border border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-white dark:bg-slate-700 rounded-xl flex items-center justify-center overflow-hidden border border-slate-200 dark:border-slate-600">
+<img alt="Logo BP" class="w-8 h-8 object-contain" data-alt="Logotipo de estación de servicio BP" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZ2MxcB-05sddD1_MMp_iM0RiRvHOGMeOba3T1LQROno6mIkQoiS-tcbpPnnxmLDK7CweF5mHl0HjuJibbd-qeJS1DUROB4CHXR-yCNY3u4J0OjPSiAet9mqlpNurY-HNpXtMRz_Lc-Tid1EHxxuVgLz0lXsHyR0a904OaejqnwtuFUpza1V9auMoJoP91-800xrxOPxB36m5qNuKRaHsg8ITP9o6JQVtfsZ3VqcrYDKl4GxVbLG1jEmnWr4mox7dmtVhqyTsSkiY"/>
+</div>
+<div>
+<h3 class="font-bold text-sm text-slate-900 dark:text-white">BP Ciudad Lineal</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="text-xs text-slate-500 dark:text-slate-400">2.1 km</span>
+<span class="w-1 h-1 bg-slate-300 rounded-full"></span>
+<span class="text-xs text-danger font-medium">Hace 1h</span>
+</div>
+</div>
+</div>
+<div class="text-right">
+<p class="text-lg font-bold text-danger">1.849 €/L</p>
+<p class="text-[10px] uppercase tracking-wider text-slate-400 font-semibold">Gasolina 95</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 right-0 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border-t border-slate-200 dark:border-slate-800 px-6 pb-6 pt-3 z-40">
+<div class="max-w-md mx-auto flex items-center justify-between">
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined text-[28px] font-variation-fill">map</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Explorar</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined text-[28px]">favorite</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Favoritos</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined text-[28px]">history</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Historial</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined text-[28px]">account_circle</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Perfil</span>
+</a>
+</div>
+</nav>
+</body></html>
