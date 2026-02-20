@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T08:30:07.603Z",
+  "lastUpdated": "2026-02-20T08:28:08.654Z",
   "stations": [
     {
       "id": "2039",
@@ -49396,19 +49396,6 @@
       "prices": {
         "regular": 23.99,
         "premium": 27.75
-      }
-    },
-    {
-      "id": "5718",
-      "name": "COMBUSTIBLES DE SALTILLO",
-      "cre_id": "PL/5494/EXP/ES/2015",
-      "location": {
-        "lat": 25.43436,
-        "lng": -100.9709
-      },
-      "brand": "Generica",
-      "prices": {
-        "regular": 23.19
       }
     },
     {
@@ -119628,20 +119615,6 @@
       }
     },
     {
-      "id": "10896",
-      "name": "COMBUSTIBLES OAXTEPEC",
-      "cre_id": "PL/1824/EXP/ES/2015",
-      "location": {
-        "lat": 18.91905,
-        "lng": -98.97001
-      },
-      "brand": "Generica",
-      "prices": {
-        "regular": 22.95,
-        "premium": 24.69
-      }
-    },
-    {
       "id": "10898",
       "name": "DESARROLLADORA DE S OMEGA",
       "cre_id": "PL/3143/EXP/ES/2015",
@@ -125219,7 +125192,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 22.99
+        "regular": 19.79
       }
     },
     {
@@ -125768,21 +125741,6 @@
         "regular": 22.85,
         "premium": 24.85,
         "diesel": 24.64
-      }
-    },
-    {
-      "id": "11469",
-      "name": "OPERADORA INTERS",
-      "cre_id": "PL/10078/EXP/ES/2015",
-      "location": {
-        "lat": 19.73519,
-        "lng": -99.18304
-      },
-      "brand": "Generica",
-      "prices": {
-        "regular": 23.49,
-        "premium": 23.99,
-        "diesel": 23.5
       }
     },
     {
@@ -143225,7 +143183,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.89
+        "premium": 25.75
       }
     },
     {
@@ -178658,7 +178616,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 22.99
+        "premium": 21.99
       }
     },
     {
