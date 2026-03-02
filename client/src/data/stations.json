@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-01T08:17:44.728Z",
+  "lastUpdated": "2026-03-02T08:30:47.185Z",
   "stations": [
     {
       "id": "2039",
@@ -5388,7 +5388,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 24.9
+        "premium": 24.6
       }
     },
     {
@@ -10132,20 +10132,6 @@
       }
     },
     {
-      "id": "2760",
-      "name": "TAPATIA LOS ARCOS",
-      "cre_id": "PL/1176/EXP/ES/2015",
-      "location": {
-        "lat": 20.67416,
-        "lng": -103.3842
-      },
-      "brand": "Arco",
-      "prices": {
-        "regular": 23.99,
-        "premium": 26.99
-      }
-    },
-    {
       "id": "2761",
       "name": "POINTER",
       "cre_id": "PL/1314/EXP/ES/2015",
@@ -11155,8 +11141,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23,
-        "premium": 25.99,
         "diesel": 27.2
       }
     },
@@ -16208,8 +16192,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.89,
-        "premium": 24.59,
+        "regular": 23.99,
+        "premium": 25.49,
         "diesel": 25.99
       }
     },
@@ -16641,8 +16625,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.89,
-        "premium": 24.59
+        "regular": 23.99,
+        "premium": 25.49
       }
     },
     {
@@ -19945,9 +19929,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 25.89,
-        "diesel": 25.49
+        "regular": 22.99,
+        "premium": 25.49,
+        "diesel": 25.19
       }
     },
     {
@@ -20892,8 +20876,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 24.89,
+        "regular": 23.99,
+        "premium": 25.49,
         "diesel": 25.49
       }
     },
@@ -21400,7 +21384,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 26.19
+        "regular": 23.99
       }
     },
     {
@@ -21513,6 +21497,8 @@
       },
       "brand": "Generica",
       "prices": {
+        "regular": 23.99,
+        "premium": 24.99,
         "diesel": 27.19
       }
     },
@@ -21920,8 +21906,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.94,
-        "premium": 25.45,
         "diesel": 26.95
       }
     },
@@ -23660,8 +23644,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.79,
-        "premium": 25.09,
         "diesel": 26.59
       }
     },
@@ -25746,8 +25728,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.94,
-        "premium": 25.5,
         "diesel": 26.95
       }
     },
@@ -28915,7 +28895,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 25.69
+        "regular": 23.79,
+        "premium": 25.49
       }
     },
     {
@@ -31924,7 +31905,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99
+        "regular": 23.49,
+        "premium": 25.5
       }
     },
     {
@@ -33265,7 +33247,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99,
         "diesel": 26.1
       }
     },
@@ -34703,7 +34684,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 22.99,
-        "premium": 23.99,
         "diesel": 24.74
       }
     },
@@ -34762,9 +34742,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.99,
-        "premium": 24.49,
-        "diesel": 25.25
+        "regular": 23.49,
+        "premium": 24.99,
+        "diesel": 25.49
       }
     },
     {
@@ -35028,9 +35008,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.79,
-        "premium": 25.59,
-        "diesel": 26.59
+        "regular": 23.99,
+        "premium": 25.99,
+        "diesel": 26.98
       }
     },
     {
@@ -35188,8 +35168,8 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.98,
-        "premium": 25.17,
-        "diesel": 25.83
+        "premium": 25.59,
+        "diesel": 25.99
       }
     },
     {
@@ -35552,7 +35532,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 26.09
+        "premium": 25.69
       }
     },
     {
@@ -35892,9 +35872,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.59,
-        "premium": 25.19,
-        "diesel": 25.89
+        "regular": 23.99,
+        "premium": 25.29,
+        "diesel": 25.99
       }
     },
     {
@@ -37202,9 +37182,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.37,
-        "premium": 25.69,
-        "diesel": 26.39
+        "regular": 23.99,
+        "premium": 25.79,
+        "diesel": 26.59
       }
     },
     {
@@ -38359,9 +38339,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.99,
-        "premium": 23.99,
-        "diesel": 26.29
+        "regular": 23.99,
+        "premium": 24.99,
+        "diesel": 26.39
       }
     },
     {
@@ -38955,7 +38935,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.99,
+        "premium": 26.39,
         "diesel": 26.39
       }
     },
@@ -39491,8 +39471,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99,
-        "premium": 26.09
+        "regular": 23.99
       }
     },
     {
@@ -39733,7 +39712,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 19.69,
         "premium": 21.85,
         "diesel": 24.2
       }
@@ -40502,9 +40480,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.69,
+        "regular": 23.79,
         "premium": 25.29,
-        "diesel": 26.39
+        "diesel": 26.49
       }
     },
     {
@@ -40531,7 +40509,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 25.59,
+        "regular": 22.59,
         "premium": 24.49,
         "diesel": 25.49
       }
@@ -40913,7 +40891,7 @@
       "prices": {
         "regular": 23.99,
         "premium": 25.39,
-        "diesel": 25.59
+        "diesel": 25.99
       }
     },
     {
@@ -41431,8 +41409,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.94,
-        "premium": 25.94,
+        "regular": 23.99,
+        "premium": 25.99,
         "diesel": 26.15
       }
     },
@@ -42496,7 +42474,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.65,
+        "regular": 23.99,
         "premium": 25.55,
         "diesel": 26.75
       }
@@ -42569,9 +42547,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.57,
-        "premium": 25.27,
-        "diesel": 25.89
+        "regular": 23.99,
+        "premium": 25.89,
+        "diesel": 25.99
       }
     },
     {
@@ -42715,7 +42693,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.49
+        "premium": 25.89
       }
     },
     {
@@ -42977,7 +42955,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.69,
+        "regular": 23.99,
         "premium": 24.99,
         "diesel": 25.99
       }
@@ -43239,8 +43217,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.79,
-        "premium": 24.99,
+        "regular": 23.99,
+        "premium": 25.18,
         "diesel": 25.89
       }
     },
@@ -43254,9 +43232,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.29,
-        "premium": 24.75,
-        "diesel": 25.65
+        "regular": 23.99,
+        "premium": 25.19,
+        "diesel": 25.99
       }
     },
     {
@@ -43725,9 +43703,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.59,
-        "premium": 25.19,
-        "diesel": 25.89
+        "regular": 23.99,
+        "premium": 25.29,
+        "diesel": 25.99
       }
     },
     {
@@ -44602,9 +44580,9 @@
       },
       "brand": "Mobil",
       "prices": {
-        "regular": 22.69,
-        "premium": 24.98,
-        "diesel": 25.07
+        "regular": 23.99,
+        "premium": 25.14,
+        "diesel": 25.59
       }
     },
     {
@@ -45046,8 +45024,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.87,
-        "premium": 24.89
+        "regular": 23.99,
+        "premium": 25.29
       }
     },
     {
@@ -45425,8 +45403,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.79,
-        "premium": 25.24,
+        "regular": 23.99,
+        "premium": 25.39,
         "diesel": 25.98
       }
     },
@@ -45470,9 +45448,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.59,
-        "premium": 24.79,
-        "diesel": 25.99
+        "regular": 23.99,
+        "premium": 24.99,
+        "diesel": 26.29
       }
     },
     {
@@ -45647,9 +45625,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.65,
+        "regular": 23.79,
         "premium": 24.85,
-        "diesel": 25.95
+        "diesel": 26.49
       }
     },
     {
@@ -45835,8 +45813,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.87,
-        "premium": 24.89
+        "regular": 23.99,
+        "premium": 25.49
       }
     },
     {
@@ -46183,9 +46161,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.45,
-        "premium": 24.99,
-        "diesel": 25.69
+        "regular": 23.99,
+        "premium": 25.19,
+        "diesel": 25.99
       }
     },
     {
@@ -46199,7 +46177,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.89,
+        "premium": 26.39,
         "diesel": 26.39
       }
     },
@@ -47118,9 +47096,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.27,
-        "premium": 25.19,
-        "diesel": 25.89
+        "regular": 23.99,
+        "premium": 25.29,
+        "diesel": 25.99
       }
     },
     {
@@ -47294,7 +47272,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.95,
+        "regular": 23.99,
         "premium": 26.45,
         "diesel": 26.49
       }
@@ -48024,9 +48002,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.47,
-        "premium": 24.99,
-        "diesel": 25.69
+        "regular": 23.99,
+        "premium": 25.39,
+        "diesel": 26.29
       }
     },
     {
@@ -48564,8 +48542,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 24.99
+        "regular": 23.39,
+        "premium": 25.09
       }
     },
     {
@@ -48737,9 +48715,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.19,
-        "premium": 25.19,
-        "diesel": 25.85
+        "regular": 23.99,
+        "premium": 26.19,
+        "diesel": 26.49
       }
     },
     {
@@ -49514,7 +49492,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 26.59
+        "regular": 23.99
       }
     },
     {
@@ -49814,8 +49792,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.79,
-        "premium": 25.29,
+        "regular": 23.99,
+        "premium": 25.39,
         "diesel": 25.98
       }
     },
@@ -50104,7 +50082,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 26.59
+        "regular": 23.99
       }
     },
     {
@@ -50132,9 +50110,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.69,
+        "regular": 23.79,
         "premium": 25.29,
-        "diesel": 26.39
+        "diesel": 26.49
       }
     },
     {
@@ -52514,8 +52492,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.79,
-        "premium": 24.59
+        "regular": 22.89,
+        "premium": 23.99
       }
     },
     {
@@ -56317,9 +56295,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.59,
-        "premium": 24.79,
-        "diesel": 25.69
+        "regular": 23.79,
+        "premium": 24.99,
+        "diesel": 25.89
       }
     },
     {
@@ -56346,8 +56324,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 25.49
+        "regular": 23.99,
+        "premium": 26.19
       }
     },
     {
@@ -56417,9 +56395,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.17,
-        "premium": 24.83,
-        "diesel": 25.49
+        "regular": 23.99,
+        "premium": 24.99,
+        "diesel": 25.69
       }
     },
     {
@@ -56731,8 +56709,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.68,
-        "premium": 23.98
+        "regular": 23.99,
+        "premium": 25.29
       }
     },
     {
@@ -57157,7 +57135,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.99,
         "diesel": 26.99
       }
     },
@@ -57418,8 +57395,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.67,
-        "premium": 24.59,
+        "regular": 23.99,
+        "premium": 25.19,
         "diesel": 25.99
       }
     },
@@ -62963,7 +62940,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.79
+        "premium": 24.99
       }
     },
     {
@@ -63570,9 +63547,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99,
-        "premium": 26.59,
-        "diesel": 26.79
+        "regular": 23.99
       }
     },
     {
@@ -65095,7 +65070,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.99,
         "diesel": 26.99
       }
     },
@@ -65704,7 +65678,7 @@
       "prices": {
         "regular": 23.65,
         "premium": 25.15,
-        "diesel": 26.1
+        "diesel": 25.99
       }
     },
     {
@@ -66768,8 +66742,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.85,
-        "premium": 24.3
+        "regular": 22.08,
+        "premium": 24.26
       }
     },
     {
@@ -67242,9 +67216,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.29,
-        "premium": 24.79,
-        "diesel": 25.69
+        "regular": 23.49,
+        "premium": 24.99,
+        "diesel": 25.89
       }
     },
     {
@@ -67374,8 +67348,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.74,
-        "premium": 25.19
+        "regular": 23.99,
+        "premium": 25.44
       }
     },
     {
@@ -68434,8 +68408,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.39,
-        "premium": 24.79
+        "regular": 23.59,
+        "premium": 24.99
       }
     },
     {
@@ -69912,9 +69886,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.47,
-        "premium": 24.99,
-        "diesel": 25.69
+        "regular": 23.99,
+        "premium": 25.39,
+        "diesel": 26.29
       }
     },
     {
@@ -70114,8 +70088,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 25.29,
+        "regular": 23.99,
+        "premium": 25.49,
         "diesel": 25.99
       }
     },
@@ -70585,7 +70559,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.89,
+        "premium": 26.39,
         "diesel": 26.39
       }
     },
@@ -72401,7 +72375,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.69,
+        "premium": 25.89,
         "diesel": 25.99
       }
     },
@@ -74822,7 +74796,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 26.09,
         "diesel": 27.09
       }
     },
@@ -74921,8 +74894,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.29,
-        "premium": 23.47
+        "regular": 22.29
       }
     },
     {
@@ -75602,7 +75574,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.99,
         "diesel": 26.99
       }
     },
@@ -76062,8 +76033,8 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 26.47,
-        "diesel": 26.64
+        "premium": 26.1,
+        "diesel": 25.99
       }
     },
     {
@@ -80298,8 +80269,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.54,
-        "premium": 23.54,
         "diesel": 24.57
       }
     },
@@ -81525,7 +81494,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.99,
         "diesel": 26.99
       }
     },
@@ -82050,9 +82018,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.87,
-        "premium": 25.85,
-        "diesel": 25.97
+        "regular": 23.99,
+        "premium": 25.99,
+        "diesel": 25.99
       }
     },
     {
@@ -82369,9 +82337,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.54,
-        "premium": 23.58,
-        "diesel": 23.97
+        "regular": 22.59,
+        "premium": 23.63,
+        "diesel": 23.99
       }
     },
     {
@@ -82842,7 +82810,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.59,
+        "regular": 22.49,
         "premium": 24.99
       }
     },
@@ -83722,8 +83690,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.54,
-        "premium": 23.54,
         "diesel": 24.57
       }
     },
@@ -84429,7 +84395,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 26.09,
         "diesel": 27.09
       }
     },
@@ -84778,7 +84743,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.99,
         "diesel": 26.99
       }
     },
@@ -86483,8 +86447,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.69,
-        "premium": 24.97,
         "diesel": 25.67
       }
     },
@@ -86717,7 +86679,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 26.09,
         "diesel": 27.09
       }
     },
@@ -89537,6 +89498,21 @@
       "prices": {
         "regular": 23.99,
         "diesel": 25.99
+      }
+    },
+    {
+      "id": "8605",
+      "name": "HIDROCARBUROS DE CHALCO,",
+      "cre_id": "PL/7988/EXP/ES/2015",
+      "location": {
+        "lat": 19.32538,
+        "lng": -98.95952
+      },
+      "brand": "Generica",
+      "prices": {
+        "regular": 23.24,
+        "premium": 24.99,
+        "diesel": 25.49
       }
     },
     {
@@ -93136,9 +93112,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.45,
-        "premium": 24.6,
-        "diesel": 25.15
+        "regular": 22.3,
+        "premium": 24.15,
+        "diesel": 24.85
       }
     },
     {
@@ -95895,8 +95871,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 27.02,
+        "regular": 24.26,
+        "premium": 26.5,
         "diesel": 25.13
       }
     },
@@ -100453,8 +100429,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.95,
-        "premium": 25.39,
-        "diesel": 26.29
+        "premium": 25.39
       }
     },
     {
@@ -100741,9 +100716,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.49,
-        "premium": 23.59,
-        "diesel": 24.69
+        "regular": 22.49
       }
     },
     {
@@ -102006,7 +101979,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 26.09,
         "diesel": 27.09
       }
     },
@@ -102320,8 +102292,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99,
-        "diesel": 26.79
+        "regular": 23.99
       }
     },
     {
@@ -103551,9 +103522,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.29,
-        "premium": 24.75,
-        "diesel": 26.29
+        "regular": 23.99,
+        "premium": 25.19,
+        "diesel": 25.99
       }
     },
     {
@@ -103624,9 +103595,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99,
-        "premium": 26.3,
-        "diesel": 26.95
+        "regular": 22.99,
+        "premium": 25.3,
+        "diesel": 25.95
       }
     },
     {
@@ -104319,7 +104290,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.99,
         "diesel": 26.99
       }
     },
@@ -104463,7 +104433,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 26.09,
         "diesel": 27.09
       }
     },
@@ -104721,9 +104690,9 @@
       },
       "brand": "Mobil",
       "prices": {
-        "regular": 23.3,
-        "premium": 24.85,
-        "diesel": 25.4
+        "regular": 23.99,
+        "premium": 25.49,
+        "diesel": 25.89
       }
     },
     {
@@ -105508,8 +105477,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.95,
-        "premium": 25.35,
         "diesel": 26.25
       }
     },
@@ -105668,6 +105635,8 @@
       },
       "brand": "Generica",
       "prices": {
+        "regular": 22.89,
+        "premium": 24.99,
         "diesel": 25.99
       }
     },
@@ -106446,8 +106415,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99,
-        "premium": 25.99
+        "regular": 23.99
       }
     },
     {
@@ -107138,7 +107106,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 26.09,
         "diesel": 27.09
       }
     },
@@ -108147,7 +108114,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 25.64
+        "premium": 24.74
       }
     },
     {
@@ -109296,7 +109263,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 24.99
+        "regular": 22.89,
+        "premium": 24.99,
+        "diesel": 25.24
       }
     },
     {
@@ -110746,7 +110715,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 25.49
+        "regular": 22.99,
+        "premium": 24.99,
+        "diesel": 25.59
       }
     },
     {
@@ -111208,7 +111179,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49
+        "premium": 24.79,
+        "diesel": 25.54
       }
     },
     {
@@ -111396,6 +111368,21 @@
         "regular": 20.67,
         "premium": 22.85,
         "diesel": 24.95
+      }
+    },
+    {
+      "id": "10229",
+      "name": "ECATEGAS",
+      "cre_id": "PL/9049/EXP/ES/2015",
+      "location": {
+        "lat": 19.62115,
+        "lng": -99.00269
+      },
+      "brand": "Generica",
+      "prices": {
+        "regular": 22.85,
+        "premium": 24.99,
+        "diesel": 25.34
       }
     },
     {
@@ -111682,7 +111669,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.75,
-        "premium": 25.44,
+        "premium": 25.34,
         "diesel": 25.97
       }
     },
@@ -111753,7 +111740,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.75,
-        "premium": 25.44,
+        "premium": 25.34,
         "diesel": 25.97
       }
     },
@@ -112584,8 +112571,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99,
-        "premium": 25.99
+        "regular": 23.89,
+        "premium": 25.74
       }
     },
     {
@@ -120202,8 +120189,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.89,
-        "diesel": 25.85
+        "premium": 25.19
       }
     },
     {
@@ -121136,19 +121122,6 @@
         "regular": 22.59,
         "premium": 23.99,
         "diesel": 26.69
-      }
-    },
-    {
-      "id": "10978",
-      "name": "ARIAS AGUILAR",
-      "cre_id": "PL/3144/EXP/ES/2015",
-      "location": {
-        "lat": 24.82611,
-        "lng": -107.5275
-      },
-      "brand": "Generica",
-      "prices": {
-        "diesel": 25.44
       }
     },
     {
@@ -123250,8 +123223,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.99,
-        "premium": 25.24,
         "diesel": 26.29
       }
     },
@@ -131535,9 +131506,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.95,
-        "premium": 25.39,
-        "diesel": 26.29
+        "regular": 23.95
       }
     },
     {
@@ -133002,8 +132971,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.99,
-        "premium": 24.99,
+        "regular": 23.99,
+        "premium": 25.49,
         "diesel": 25.97
       }
     },
@@ -133017,9 +132986,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.99,
-        "premium": 24.99,
-        "diesel": 25.51
+        "regular": 23.99,
+        "premium": 25.79,
+        "diesel": 26.14
       }
     },
     {
@@ -136642,7 +136611,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49
+        "diesel": 25.99
       }
     },
     {
@@ -136713,8 +136682,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "diesel": 26.19
+        "premium": 24.99
       }
     },
     {
@@ -137761,8 +137729,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.99,
-        "premium": 24.97
+        "regular": 23.99,
+        "premium": 25.39
       }
     },
     {
@@ -140721,7 +140689,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 26.59
+        "regular": 23.99
       }
     },
     {
@@ -140880,7 +140848,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 26.59
+        "regular": 23.99
       }
     },
     {
@@ -142519,8 +142487,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.9,
-        "premium": 25.5,
-        "diesel": 26.1
+        "premium": 25.5
       }
     },
     {
@@ -142749,8 +142716,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.89,
-        "diesel": 26.62
+        "regular": 23.77,
+        "diesel": 26.49
       }
     },
     {
@@ -143926,9 +143893,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.99,
-        "premium": 25.25,
-        "diesel": 25.89
+        "regular": 23.99,
+        "premium": 25.79,
+        "diesel": 26.89
       }
     },
     {
@@ -144276,8 +144243,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 24.69
+        "regular": 23.99,
+        "premium": 25.29
       }
     },
     {
@@ -144666,7 +144633,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 27.1
+        "regular": 23.9
       }
     },
     {
@@ -146774,7 +146741,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 26.59
+        "regular": 23.99
       }
     },
     {
@@ -148701,9 +148668,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.59,
+        "regular": 23.99,
         "premium": 25.49,
-        "diesel": 25.89
+        "diesel": 25.99
       }
     },
     {
@@ -150018,6 +149985,8 @@
       },
       "brand": "Generica",
       "prices": {
+        "regular": 22.99,
+        "premium": 24.99,
         "diesel": 25.49
       }
     },
@@ -153859,7 +153828,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99
+        "regular": 23.79,
+        "premium": 26.29,
+        "diesel": 26.59
       }
     },
     {
@@ -155946,8 +155917,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.67,
-        "premium": 24.69
+        "regular": 23.99,
+        "premium": 24.99
       }
     },
     {
@@ -158142,9 +158113,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.19,
-        "premium": 24.29,
-        "diesel": 25.59
+        "regular": 23.16,
+        "premium": 24.36,
+        "diesel": 25.66
       }
     },
     {
@@ -158289,7 +158260,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 25.19
+        "regular": 22.99
       }
     },
     {
@@ -158584,7 +158555,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 19.49
+        "regular": 22.59,
+        "premium": 24.27
       }
     },
     {
@@ -158788,8 +158760,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.27,
-        "premium": 25.25,
+        "regular": 23.99,
+        "premium": 25.29,
         "diesel": 25.99
       }
     },
@@ -159330,7 +159302,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 22.85,
-        "premium": 23.99,
         "diesel": 24.8
       }
     },
@@ -160093,9 +160064,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.59,
-        "premium": 25.19,
-        "diesel": 25.89
+        "regular": 23.99,
+        "premium": 25.29,
+        "diesel": 25.99
       }
     },
     {
@@ -160152,7 +160123,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.99
+        "regular": 23.79,
+        "premium": 26.39
       }
     },
     {
@@ -162828,7 +162800,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 24.99
+        "regular": 22.99
       }
     },
     {
@@ -164173,9 +164145,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 24.99,
-        "diesel": 25.69
+        "regular": 23.99,
+        "premium": 25.39,
+        "diesel": 25.99
       }
     },
     {
@@ -165202,9 +165174,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.91,
-        "premium": 25.91,
-        "diesel": 25.21
+        "regular": 22.95,
+        "premium": 24.85,
+        "diesel": 25.45
       }
     },
     {
@@ -166823,7 +166795,8 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.89,
-        "premium": 25.98
+        "premium": 25.98,
+        "diesel": 26.98
       }
     },
     {
@@ -169666,7 +169639,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 25.64
+        "premium": 24.74
       }
     },
     {
@@ -169825,7 +169798,6 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.49,
         "premium": 23.67
       }
     },
@@ -172364,7 +172336,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "diesel": 27.93
+        "premium": 26.85
       }
     },
     {
@@ -172393,8 +172365,8 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 27.09,
-        "diesel": 26.59
+        "premium": 26.99,
+        "diesel": 26.49
       }
     },
     {
@@ -176405,7 +176377,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.5
+        "premium": 25.1
       }
     },
     {
@@ -182739,8 +182711,7 @@
       "brand": "Generica",
       "prices": {
         "regular": 23.99,
-        "premium": 25.79,
-        "diesel": 26.69
+        "premium": 25.79
       }
     },
     {
@@ -183159,7 +183130,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 22.69
+        "regular": 22.69,
+        "premium": 24.74,
+        "diesel": 25.24
       }
     },
     {
@@ -184612,7 +184585,7 @@
       },
       "brand": "Generica",
       "prices": {
-        "premium": 25.3
+        "regular": 23.7
       }
     },
     {
@@ -191028,9 +191001,9 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 24.29,
+        "regular": 24.39,
         "premium": 26.49,
-        "diesel": 26.78
+        "diesel": 26.84
       }
     },
     {
@@ -192788,7 +192761,6 @@
       "brand": "Generica",
       "prices": {
         "regular": 22.99,
-        "premium": 24.99,
         "diesel": 25.49
       }
     },
@@ -192999,6 +192971,19 @@
       }
     },
     {
+      "id": "30715",
+      "name": "GALILEA BETANCOURT MORENO",
+      "cre_id": "CNE/PL/482/EXP/ES/2025",
+      "location": {
+        "lat": 19.9265,
+        "lng": -100.1796
+      },
+      "brand": "Generica",
+      "prices": {
+        "diesel": 26.5
+      }
+    },
+    {
       "id": "30720",
       "name": "MATA LARGA S",
       "cre_id": "CNE/PL/490/EXP/ES/2025",
@@ -193008,8 +192993,8 @@
       },
       "brand": "Generica",
       "prices": {
-        "regular": 23.49,
-        "premium": 24.69
+        "regular": 23.89,
+        "premium": 25.29
       }
     },
     {
